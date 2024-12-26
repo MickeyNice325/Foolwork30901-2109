@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screen/home.dart';
+// import 'package:flutter_application_1/screen/home.dart';
+// import 'package:flutter_application_1/tabbar.dart';
+import 'package:flutter_application_1/googlenavbar.dart';
 
 class FoodMenu {
   final String name;
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: 'NotoSansThai',
       ),
-      home: HomeScreen(),
+      home: Example(),
     );
   }
 }
